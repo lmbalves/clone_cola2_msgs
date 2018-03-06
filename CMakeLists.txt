@@ -57,6 +57,8 @@ add_message_files(
   CaptainStatus.msg
   DecimalLatLon.msg
   Detection.msg
+  DVL.msg
+  DVLBeam.msg
   GoalDescriptor.msg
   Landmark.msg
   Map.msg
