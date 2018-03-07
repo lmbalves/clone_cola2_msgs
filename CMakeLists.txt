@@ -72,6 +72,7 @@ add_message_files(
   Setpoints.msg
   VehicleStatus.msg
   WorldWaypointReq.msg
+  Float32Stamped.msg
 )
 
 ## Generate services in the 'srv' folder
