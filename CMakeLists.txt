@@ -84,6 +84,7 @@ add_service_files(
   Recovery.srv
   SetPose.srv
   SimulatedCurrents.srv
+  String.srv
 )
 
 ## Generate actions in the 'action' folder
