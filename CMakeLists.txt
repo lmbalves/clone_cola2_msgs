@@ -70,7 +70,6 @@ add_message_files(
   RPY.msg
   SafetySupervisorStatus.msg
   Setpoints.msg
-  ElapsedTime.msg
   VehicleStatus.msg
   WorldWaypointReq.msg
 )
