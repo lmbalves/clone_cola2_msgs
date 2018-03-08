@@ -14,7 +14,8 @@ bool vehicle_initialized
 bool water_detected
 float32 battery_charge
 float32 battery_voltage
-float32[] internal_temperature
+string[] temperature_name
+float32[] temperature
 
 # Safety: data age
 float32 navigation_data_age
