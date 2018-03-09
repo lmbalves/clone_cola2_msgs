@@ -84,7 +84,6 @@ add_service_files(
   MaxJoyVelocity.srv
   Recovery.srv
   SetPose.srv
-  SimulatedCurrents.srv
   String.srv
 )
 
