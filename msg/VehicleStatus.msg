@@ -9,7 +9,7 @@ float32 heading
 bool at_surface
 
 # Safety
-float32 up_time
+float32 elapsed_time
 bool vehicle_initialized
 bool water_detected
 float32 battery_charge
