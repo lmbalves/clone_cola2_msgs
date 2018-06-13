@@ -26,6 +26,9 @@ uint64 priority
 # Timeout
 float64 timeout
 
+# Speed
+float64 surge_velocity
+
 ---
 # Define the RESULT
 
