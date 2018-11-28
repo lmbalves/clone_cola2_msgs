@@ -30,7 +30,8 @@ cola2_msgs/RPY angular_velocity
 # Max timeout to reach position in seconds. If a more restrictive one is
 # computed by the captain using distance and velocity, it will override this one.
 # If keep_position is true, timeout is the time to keep position.
-uint16 timeout
+float64 timeout
 
 ---
 bool success
+string message
