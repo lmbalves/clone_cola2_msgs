@@ -16,6 +16,7 @@ float32 battery_charge
 float32 battery_voltage
 string[] temperature_name
 float32[] temperature
+bool inside_virtual_cage
 
 # Safety: data age
 float32 navigation_data_age
