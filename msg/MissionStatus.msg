@@ -1,11 +1,14 @@
 Header header
 
-int32 current_wp
-int32 total_wp
-
+# Running controller
+uint8 CONTROLLER_NONE = 0
+uint8 CONTROLLER_WAYPOINT = 1
+uint8 CONTROLLER_SECTION = 2
+uint8 CONTROLLER_PARK = 3
+uint8 active_controller
 bool altitude_mode
 
-float64 wp_north
-float64 wp_east
-float32 wp_depth_altitude
-int32 wp_remaining_time
+# Mission status
+bool mission_active
+int32 current_step
+int32 total_steps

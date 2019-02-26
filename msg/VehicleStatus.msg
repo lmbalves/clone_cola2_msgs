@@ -16,6 +16,7 @@ float32 battery_charge
 float32 battery_voltage
 string[] temperature_name
 float32[] temperature
+bool inside_virtual_cage
 
 # Safety: data age
 float32 navigation_data_age
@@ -30,6 +31,16 @@ float32 wifi_data_age
 
 # Thrusters enabled
 bool thrusters_enabled
+
+# Captain state and message
+uint8 IDLE = 0
+uint8 GOTO = 1
+uint8 MISSION = 2
+uint8 KEEPPOSITION = 3
+uint8 SAFETYKEEPPOSITION = 4
+uint8 EXTERNALMISSION = 5
+uint8 captain_state
+string captain_message
 
 # Running controller
 uint8 CONTROLLER_NONE = 0
