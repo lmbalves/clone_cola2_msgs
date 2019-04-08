@@ -11,3 +11,6 @@ uint8 state
 
 # Info message
 string message
+
+# List of missions
+cola2_msgs/MissionState[] loaded_missions
