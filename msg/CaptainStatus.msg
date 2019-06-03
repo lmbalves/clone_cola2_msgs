@@ -7,6 +7,7 @@ uint8 MISSION = 2
 uint8 KEEPPOSITION = 3
 uint8 SAFETYKEEPPOSITION = 4
 uint8 EXTERNALMISSION = 5
+uint8 SECTION = 6
 uint8 state
 
 # Info message

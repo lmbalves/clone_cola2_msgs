@@ -1,0 +1,37 @@
+# Initial state
+geometry_msgs/Point initial_position
+
+# Final state
+geometry_msgs/Point final_position
+
+# Reference frame for both the inital and final positions
+uint8 REFERENCE_NED=0
+uint8 REFERENCE_GLOBAL=1
+uint8 REFERENCE_VEHICLE=2
+uint8 reference
+
+# Flag to consider z as altitude
+bool altitude_mode
+
+# Flag to not control z axis
+bool disable_z
+
+# Final waypoint tolerance
+geometry_msgs/Point tolerance
+
+# Controller type
+uint64 controller_type
+uint64 LOSCTE=0
+
+# Priority
+uint64 priority
+
+# Timeout
+float64 timeout
+
+# Speed
+float64 surge_velocity
+
+---
+bool success
+string message
