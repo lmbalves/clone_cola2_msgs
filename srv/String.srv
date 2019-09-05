@@ -1,3 +1,4 @@
-string request
+string data
 ---
-string response
+bool success
+string message
