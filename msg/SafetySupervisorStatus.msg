@@ -1,3 +1,3 @@
 Header header
-int32 status_code
+uint32 status_code
 cola2_msgs/RecoveryAction recovery_action
