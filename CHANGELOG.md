@@ -1,5 +1,7 @@
 # Changelog
 
+## [3.2.0] - 22-10-2019
+
 * Change `SafetySupervisorStatus.status_code` from `int32` to `uint32`
 * Add `CaptainStateFeedback` message
 * Add `KeyValue` message
