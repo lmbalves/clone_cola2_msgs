@@ -1,5 +1,6 @@
 # Changelog
 
+* Updated pilot actionlib, and also the goto and section services
 * Updated recovery action message to allow for drop weight
 
 ## [3.2.0] - 22-10-2019

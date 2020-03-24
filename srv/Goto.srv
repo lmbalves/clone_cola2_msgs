@@ -1,35 +1,27 @@
-geometry_msgs/Vector3 position
-float32 yaw
-float32 altitude
-bool altitude_mode
+# Final state
+float64 final_x
+float64 final_y
+float64 final_depth
+float64 final_altitude
 
-# If blocking is True, server do not returns until waypoint reached (blocking the thread from which it is called)
-bool blocking
-
-# If keep_position is True, the timeout is set to a large number and the goto only finalizes when it is canceled
-bool keep_position
-
-uint8 priority
-
-uint8 REFERENCE_NED=0
-uint8 REFERENCE_GLOBAL=1
-uint8 REFERENCE_VEHICLE=2
+# Reference frame for both the inital and final positions
+uint8 NED=0
+uint8 GLOBAL=1
 uint8 reference
 
-# GOTO:             False,  True,   ?,      True,   True,   False
-# HOLONOMIC GOTO:   False,  False,  ?,      True,   True,   ?
-# SUBMERGE:         True,   True,   False,  True,   True,   True
-cola2_msgs/Bool6Axis disable_axis
+# Heave mode
+uint64 heave_mode
+uint64 DEPTH=0
+uint64 ALTITUDE=1
+uint64 BOTH=2
 
-geometry_msgs/Vector3 position_tolerance
-cola2_msgs/RPY orientation_tolerance
+# Surge velocity
+float64 surge_velocity
 
-geometry_msgs/Vector3 linear_velocity
-cola2_msgs/RPY angular_velocity
+# Tolerance
+float64 tolerance_xy
 
-# Max timeout to reach position in seconds. If a more restrictive one is
-# computed by the captain using distance and velocity, it will override this one.
-# If keep_position is true, timeout is the time to keep position.
+# Timeout
 float64 timeout
 
 ---
