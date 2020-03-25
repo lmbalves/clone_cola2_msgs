@@ -24,6 +24,9 @@ float64 tolerance_xy
 # Timeout
 float64 timeout
 
+# No altitude reactive behavior
+bool no_altitude_goes_up
+
 ---
 bool success
 string message
