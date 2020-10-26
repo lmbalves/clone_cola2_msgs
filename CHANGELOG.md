@@ -1,5 +1,10 @@
 # Changelog
 
+## [202010.0] - 26-10-2020
+
+* Updated pilot actionlib, and also the goto and section services
+* Updated recovery action message to allow for drop weight
+
 ## [3.2.0] - 22-10-2019
 
 * Change `SafetySupervisorStatus.status_code` from `int32` to `uint32`
