@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>cola2_msgs</name>
-  <version>3.2.0</version>
+  <version>202010.0</version>
   <description>The cola2_msgs package</description>
   <maintainer email="software@iquarobotics.com">Iqua Robotics</maintainer>
   <license>Iqua Robotics</license>
