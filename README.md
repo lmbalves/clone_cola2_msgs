@@ -1,5 +1,7 @@
 # cola2_msgs
 
+Cloned from git clone https://bitbucket.org/iquarobotics/cola2_msgs.gi
+
 Messages, services and actions used by COLA2.
 
 Use standard ROS messages when possible.
