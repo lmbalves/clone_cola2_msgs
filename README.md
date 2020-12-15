@@ -1,6 +1,6 @@
 # cola2_msgs
 
-Cloned from git clone https://bitbucket.org/iquarobotics/cola2_msgs.gi
+Cloned from git clone https://bitbucket.org/iquarobotics/cola2_msgs.git
 
 Messages, services and actions used by COLA2.
 
